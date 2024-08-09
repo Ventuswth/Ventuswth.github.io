@@ -1,0 +1,9 @@
+body{
+  margin: 0px;  
+}
+
+.left_container{
+  height: 100vh;
+  background-color:#0065DC;
+  width: 65%;
+}
