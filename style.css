@@ -7,6 +7,7 @@
   --fnt_text: 'Fira Mono';
   --fnt_white: #ffffff;
   --grn_btn: #3CC54C;
+  --ln_hgt: 1.55;
 }
 
 body{
@@ -16,15 +17,16 @@ body{
 }
 
 .left_container{
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   background-color:#0065DC;
   width: 65%;
+  display: flex;
+  flex-direction: column;
 }
 
 .left_container > * {
   border: 1px solid black;
+  padding: 0px 50px 0px 50px;
 }
 
 .title_text{
@@ -33,6 +35,7 @@ body{
 }
 
 .introduction{
+  line-height: var(--ln_hgt);
   font-family: var(--fnt_text);
 }
 
@@ -45,5 +48,23 @@ body{
   height: 56px;
   border: none;
   border-radius: 10px;
+  margin: 20px 0px 0px 0px;
   padding: 10px 30px 10px 30px;
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  border: 5px solid green;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.top > * {
+/*   border: 3px solid red; */
+}
+
+.bottom{
+  margin-top: auto;
+  margin-bottom: 50px;
 }
