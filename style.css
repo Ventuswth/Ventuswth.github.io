@@ -25,11 +25,13 @@ body{
 }
 
 .left_container > * {
-  border: 1px solid black;
+/*   border: 1px solid black; */
   padding: 0px 50px 0px 50px;
 }
 
 .title_text{
+/*   border: 1px solid red; */
+  max-width: 450px;
   font-size: 78px;
   font-weight: 600;
 }
@@ -37,6 +39,10 @@ body{
 .introduction{
   line-height: var(--ln_hgt);
   font-family: var(--fnt_text);
+  max-width: 500px;
+}
+.homepage_btn i{
+  margin-right: 10px;
 }
 
 .homepage_btn button{
@@ -52,10 +58,21 @@ body{
   padding: 10px 30px 10px 30px;
 }
 
+.follow_me_container{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 135px;
+}
+
+.soc_icons > * {
+  margin-right: 10px;
+}
+
 .top{
   display: flex;
   flex-direction: column;
-  border: 5px solid green;
+/*   border: 5px solid green; */
   margin-top: 50px;
   gap: 10px;
 }
